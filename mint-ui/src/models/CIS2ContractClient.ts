@@ -46,7 +46,7 @@ export async function initContract<T>(provider: WalletApi,
     account: string,
     params?: T,
     serializedParams?: Buffer,
-    maxContractExecutionEnergy = BigInt(999),
+    maxContractExecutionEnergy = BigInt(9999),
     ccdAmount = BigInt(0)): Promise<ContractAddress> {
 
     const { moduleRef, schemaBuffer, contractName } = contractInfo;
