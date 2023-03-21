@@ -1,0 +1,1 @@
+./backend --node http://node.testnet.concordium.com:20000 --port 8100 --log-level info --verify-key ccc7b73e381125ccc7dbd82f2ccef80c2877ae2eacbd57c536a67a767e94395c --sign-key 8489aee9ce39453847844767dbf4ab40200ddd190a554978135ef298cb64e0a4 --statement "$(<../../config/statement.json)"
