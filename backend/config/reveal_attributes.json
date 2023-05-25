@@ -1,0 +1,38 @@
+[
+    {
+        "type": "RevealAttribute",
+        "attributeTag": "firstName"
+    },
+    {
+        "type": "RevealAttribute",
+        "attributeTag": "lastName"
+    },
+    {
+        "type": "RevealAttribute",
+        "attributeTag": "nationality"
+    },
+    {
+        "type": "RevealAttribute",
+        "attributeTag": "dob"
+    },
+    {
+        "type": "RevealAttribute",
+        "attributeTag": "nationalIdNo"
+    },
+    {
+        "type": "RevealAttribute",
+        "attributeTag": "idDocType"
+    },
+    {
+        "type": "RevealAttribute",
+        "attributeTag": "idDocIssuer"
+    },
+    {
+        "type": "RevealAttribute",
+        "attributeTag": "idDocNo"
+    },
+    {
+        "type": "RevealAttribute",
+        "attributeTag": "sex"
+    }
+]

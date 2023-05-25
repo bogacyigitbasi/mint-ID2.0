@@ -132,6 +132,10 @@ async fn check_proof_worker(
         commitments,
         &request.proof.proof.value, // TODO: Check version.
     ) {
+        // print statement added for printing the revealed information
+        // ideally it shouldnt be printed
+        println!("{:?}", &request.proof.proof.value);
+
         challenges.remove(&base16_encode_string(&request.challenge.0));
         let sig = key_pair.sign(&acc_info.response.account_address.0);
         Ok(hex::encode_upper(sig.sig))
